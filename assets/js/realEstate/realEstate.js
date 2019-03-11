@@ -1,5 +1,6 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
+import Header from './Header.js'
 
 class Layout extends Component {
   constructor () {
@@ -8,11 +9,8 @@ class Layout extends Component {
       name: 'Joe'
     }
   }
-  clickedBtn = () => {
-    console.log('swag')
-  }
   render () {
-    return ( <div> Real Estate </div>)
+    return ( <div> <Header /> </div>)
   }
 }
 
