@@ -1,4 +1,5 @@
 import React, { Component} from 'react'
+import ReactDOM from 'react-dom'
 
 export default class Filter extends Component {
   constructor () {
@@ -8,8 +9,8 @@ export default class Filter extends Component {
     }
   }
   render () {
-    return ( <section className="filter">
-Filter
+    return ( <section className="listings">
+Listings
             </section>
     )
   }
