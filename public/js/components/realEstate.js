@@ -123,7 +123,12 @@ var Layout = function (_Component) {
         null,
         ' ',
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Header_js__["a" /* default */], null),
-        ' '
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'section',
+          null,
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('filter', null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('listings', null)
+        )
       );
     }
   }]);

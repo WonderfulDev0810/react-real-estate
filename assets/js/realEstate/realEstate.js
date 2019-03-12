@@ -10,7 +10,12 @@ class Layout extends Component {
     }
   }
   render () {
-    return ( <div> <Header /> </div>)
+    return ( <div> <Header />
+      <section>
+        <filter />
+        <listings />
+      </section>
+    </div>)
   }
 }
 
