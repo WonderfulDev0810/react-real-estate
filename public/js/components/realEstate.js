@@ -41,7 +41,7 @@ var Header = function (_Component) {
         null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          null,
+          { className: 'logo' },
           ' Logo '
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -50,17 +50,17 @@ var Header = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
             { href: '#' },
-            'create adds'
+            'Create adds'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
             { href: '#' },
-            'about us'
+            'About us'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
             { href: '#' },
-            'log in'
+            'Log in'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
