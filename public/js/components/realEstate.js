@@ -35,7 +35,7 @@ var Filter = function (_Component) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'section',
-        { className: 'filter' },
+        { id: 'filter' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'h4',
           null,

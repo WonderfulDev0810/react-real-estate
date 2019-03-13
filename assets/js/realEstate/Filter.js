@@ -8,7 +8,7 @@ export default class Filter extends Component {
     }
   }
   render () {
-    return ( <section className="filter">
+    return ( <section id="filter">
       <h4>Filter</h4>
       <select name="neighbourhood" className="filters neighbourhood">
         <option>Zürich</option>
