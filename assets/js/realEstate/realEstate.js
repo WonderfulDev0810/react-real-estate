@@ -8,11 +8,12 @@ class Layout extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Mads'
     }
   }
   render () {
-    return (<div> <Header />
+    return (<div>
+      <Header />
       <section id="content-area">
         <Filter />
         <Listings />
