@@ -87,8 +87,42 @@ var Filter = function (_Component) {
             { className: 'title' },
             'Floor Space'
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'min-price' }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'max-price' })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-floor-space', className: 'min-floor-space' }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'max-floor-space', className: 'max-floor-space' })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'filters extras' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'label',
+            { htmlFor: 'extras' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              null,
+              ' Elevators'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'elavator', type: 'checkbox' })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'label',
+            { htmlFor: 'extras' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              null,
+              ' Finished Basement'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'finished basement', type: 'checkbox' })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'label',
+            { htmlFor: 'extras' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              null,
+              ' Gym'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'gym', type: 'checkbox' })
+          )
         )
       );
     }
