@@ -31,6 +31,9 @@ export default class Filter extends Component {
         <input type="text" name="max-floor-space" className="max-floor-space" />
       </div>
       <div className="filters extras">
+        <span className="title">
+         Extras
+        </span>
         <label htmlFor="extras">
           <span> Elevators</span>
           <input name="extras" value="elavator" type="checkbox"/>

@@ -97,6 +97,11 @@ var Filter = function (_Component) {
             'div',
             { className: 'filters extras' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              { className: 'title' },
+              'Extras'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { htmlFor: 'extras' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(

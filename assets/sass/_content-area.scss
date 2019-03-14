@@ -26,6 +26,34 @@ select {
   width: 100%;
 }
 
+.filters {
+  .title {
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: $darkgrey;
+  }
+  input[type="text"] {
+    border-radius: 5px;
+    width: 45%;
+    font-size: 1rem;
+    padding: 0.4rem;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-bottom: 1rem;
+
+  }
+
+  &.extras {
+    label {
+      display: block;
+      width: 100%;
+      
+    }
+  }
+
+}
+
 
 
 

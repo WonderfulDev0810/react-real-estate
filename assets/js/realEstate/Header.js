@@ -8,7 +8,7 @@ export default class Header extends Component {
     }
   }
   render () {
-    return ( <header>
+    return (<header>
         <div className="logo"> Logo </div>
 
         <nav>
@@ -19,8 +19,6 @@ export default class Header extends Component {
         </nav>
 
       </header>
-
-
     )
 
   }
