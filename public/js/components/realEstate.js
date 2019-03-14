@@ -37,91 +37,95 @@ var Filter = function (_Component) {
         'section',
         { id: 'filter' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'h4',
-          null,
-          'Filter'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'select',
-          { name: 'neighbourhood', className: 'filters neighbourhood' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'option',
-            null,
-            'Z\xFCrich'
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'select',
-          { name: 'housetype', className: 'filters neighbourhood' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'option',
-            null,
-            'Villa'
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'select',
-          { name: 'bedrooms', className: 'fitlers bedrooms' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'option',
-            null,
-            '6 BR'
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: 'filters price' },
+          { className: 'inside' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span',
-            { className: 'title' },
-            'Price'
+            'h4',
+            null,
+            'Filter'
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'min-price' }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'max-price' })
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'filters floor-space' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span',
-            { className: 'title' },
-            'Floor Space'
+            'select',
+            { name: 'neighbourhood', className: 'filters neighbourhood' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              null,
+              'Z\xFCrich'
+            )
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-floor-space', className: 'min-floor-space' }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'max-floor-space', className: 'max-floor-space' })
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'filters extras' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'label',
-            { htmlFor: 'extras' },
+            'select',
+            { name: 'housetype', className: 'filters housetype' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              null,
+              'Villa'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'select',
+            { name: 'bedrooms', className: 'fitlers bedrooms' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              null,
+              '6 BR'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'filters price' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'span',
-              null,
-              ' Elevators'
+              { className: 'title' },
+              'Price'
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'elavator', type: 'checkbox' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'min-price' }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'max-price' })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'label',
-            { htmlFor: 'extras' },
+            'div',
+            { className: 'filters floor-space' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'span',
-              null,
-              ' Finished Basement'
+              { className: 'title' },
+              'Floor Space'
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'finished basement', type: 'checkbox' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-floor-space', className: 'min-floor-space' }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'max-floor-space', className: 'max-floor-space' })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'label',
-            { htmlFor: 'extras' },
+            'div',
+            { className: 'filters extras' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'span',
-              null,
-              ' Gym'
+              'label',
+              { htmlFor: 'extras' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                ' Elevators'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'elavator', type: 'checkbox' })
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'gym', type: 'checkbox' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'label',
+              { htmlFor: 'extras' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                ' Finished Basement'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'finished basement', type: 'checkbox' })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'label',
+              { htmlFor: 'extras' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                ' Gym'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'gym', type: 'checkbox' })
+            )
           )
         )
       );

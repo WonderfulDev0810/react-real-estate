@@ -9,11 +9,12 @@ export default class Filter extends Component {
   }
   render () {
     return ( <section id="filter">
+      <div className="inside">
       <h4>Filter</h4>
       <select name="neighbourhood" className="filters neighbourhood">
         <option>Zürich</option>
       </select>
-      <select name="housetype" className="filters neighbourhood">
+      <select name="housetype" className="filters housetype">
         <option>Villa</option>
       </select>
       <select name="bedrooms" className="fitlers bedrooms">
@@ -42,6 +43,7 @@ export default class Filter extends Component {
           <span> Gym</span>
           <input name="extras" value="gym" type="checkbox"/>
         </label>
+      </div>
       </div>
     </section>)
   }
