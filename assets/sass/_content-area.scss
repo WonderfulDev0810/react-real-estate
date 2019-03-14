@@ -1,10 +1,12 @@
 #filter {
   background: $grey;
   width: 30%;
+  max-width: 300px;
 }
 
 .inside {
   padding: 20px;
+  max-width: 300px;
 }
 
 h4 {
@@ -48,7 +50,10 @@ select {
     label {
       display: block;
       width: 100%;
-      
+      padding: 10px 0;
+    }
+    input [tyoe="checkbox"] {
+      float: right;
     }
   }
 
