@@ -1,5 +1,5 @@
 {
-  "name": "CodingPhase-StarterKit",
+  "name": "Mads-StarterKit",
   "version": "1.0.0",
   "description": "Super Cool Framework",
   "main": "index.js",
@@ -31,7 +31,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",
-    "react-router": "^4.1.1",
+    "react-router": "^4.3.1",
     "redux": "^3.6.0",
     "sass-loader": "^6.0.3",
     "standard": "^10.0.2",
