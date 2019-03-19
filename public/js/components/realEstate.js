@@ -370,10 +370,70 @@ var Filter = function (_Component) {
                 )
               )
             )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'bottom-info' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              null,
+              '$1000 /month'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              null,
+              'Uitikon, Z\xFCrich',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'i',
+                { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
+                ' '
+              )
+            )
           )
         ),
-        '1',
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('section', { className: 'pageination' }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'section',
+          { className: 'pageination' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'ul',
+            { className: 'pagination-nums' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              'Prev'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              '1'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              '2'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              '3'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              '4'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              '5'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              'Next'
+            )
+          )
+        ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('section', { className: 'listings-results' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('section', { className: 'pageination' })
       );
