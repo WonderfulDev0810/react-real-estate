@@ -1,3 +1,5 @@
+/* eslint jsx-quotes: ["error", "prefer-double"] */
+/* eslint-disable react/self-closing-comp */
 import React, { Component} from 'react'
 
 export default class Filter extends Component {
@@ -44,7 +46,7 @@ export default class Filter extends Component {
             </div>
           </div>
         </div>
-      </section>
+      </section>1
 
       <section className="pageination">
       </section>
@@ -56,6 +58,6 @@ export default class Filter extends Component {
       </section>
 
     </section>
-  )
+    )
   }
-  }
+}
