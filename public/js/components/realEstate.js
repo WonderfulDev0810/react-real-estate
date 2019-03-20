@@ -259,7 +259,7 @@ var Filter = function (_Component) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'section',
-        { className: 'listings' },
+        { id: 'listings' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
           { className: 'search-area' },
@@ -270,7 +270,7 @@ var Filter = function (_Component) {
           { className: 'sortby-area' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            null,
+            { className: 'results' },
             '399 results found'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -289,32 +289,27 @@ var Filter = function (_Component) {
                 { value: 'price-dsc' },
                 ' Lowest Price '
               )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'view' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'i',
+                { className: 'fa fa-th-list', 'aria-hidden': 'true' },
+                ' '
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'i',
+                { className: 'fa fa-th', 'aria-hidden': 'true' },
+                ' '
+              )
             )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'view' },
-          'AAA',
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'i',
-            { className: 'fa fa-th-list', 'aria-hidden': 'true' },
-            ' '
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'i',
-            { className: 'fa fa-th', 'aria-hidden': 'true' },
-            ' '
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
           { className: 'listings-results' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'listing' },
-            'BBB'
-          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'listing' }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'listing-img' },
