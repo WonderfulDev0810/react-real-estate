@@ -54,7 +54,7 @@ select {
       width: 100%;
       padding: 10px 0;
     }
-    input [tyoe="checkbox"] {
+    input [type="checkbox"] {
       float: right;
     }
   }
@@ -74,7 +74,7 @@ select {
       background: transparent;
       font-size: 2rem;
       border: none;
-      border-bottom: 1px solid $darkgrey;
+      border-bottom: 1px solid $lightgrey;
       margin-bottom: 20px;
       color: $lightgrey;
     }
@@ -86,7 +86,7 @@ select {
     .results {
       color: $lightgrey;
       font-size: 0.8rem;
-      display: inline-block;
+      //display: inline-block;
     }
     .sort-options {
       float: right;
@@ -99,12 +99,14 @@ select {
         padding: 20px;
         display: inline-block;
         margin-right: 15px;
+        vertical-align: top;
       }
 
       .view {
         display: inline-block;
         .fa {
           font-size: 1.5rem;
+          margin-right: 15px;
         }
 
       }
