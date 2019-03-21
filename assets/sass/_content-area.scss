@@ -83,11 +83,13 @@ select {
 
   .sortby-area {
     margin-bottom: 20px;
+
     .results {
       color: $lightgrey;
       font-size: 0.8rem;
-      //display: inline-block;
+      display: inline-block;
     }
+
     .sort-options {
       float: right;
 
@@ -110,8 +112,9 @@ select {
         }
 
       }
-
     }
+
+
   }
 }
 
