@@ -33,20 +33,29 @@ export default class Filter extends Component {
             <div className="listing-img">
               <span className="Address">Address</span>
               <div className="details">
-                <div className="user-img"> </div>
-                <div className="user-details">
-                  <span className="user-name">Tom Jones</span>
-                  <span className="post-date">08/12/2019</span>
+                <div className="col-md-3">
+                  <div className="user-img"> </div>
                 </div>
-                <div className="listing-details">
-                  <div className="floor-spacing">
-                    <i className="fa fa-square-o" aria-hidden="true"> </i>
+
+                <div className="col-md-3">
+                  <div className="user-details">
+                    <span className="user-name">Tom Jones</span>
+                    <span className="post-date">08/12/2019</span>
                   </div>
-                  <span>1000 ft&sup2;</span>
-                  <i className="fa fa-bed" aria-hidden="true"> </i>
-                  <span>3 bedrooms</span>
+                  <div className="listing-details">
+                    <div className="floor-spacing">
+                      <i className="fa fa-square-o" aria-hidden="true"> </i>
+                      <span>1000 ft&sup2;</span>
+                    </div>
+                    <div className="bedrooms">
+                      <i className="fa fa-bed" aria-hidden="true"> </i>
+                      <span>3 bedrooms</span>
+                    </div>
+
+                  </div>
                 </div>
               </div>
+
             </div>
             <div className="bottom-info">
               <span>$1000 /month</span>
