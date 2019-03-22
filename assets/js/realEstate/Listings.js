@@ -31,13 +31,13 @@ export default class Filter extends Component {
         <section className="listings-results">
           <div className="listing">
             <div className="listing-img">
-              <span className="Address">Address</span>
+              <span className="address">Uetlibergstrasse 111</span>
               <div className="details">
                 <div className="col-md-3">
                   <div className="user-img"> </div>
                 </div>
 
-                <div className="col-md-3">
+                <div className="col-md-9">
                   <div className="user-details">
                     <span className="user-name">Tom Jones</span>
                     <span className="post-date">08/12/2019</span>
@@ -51,6 +51,8 @@ export default class Filter extends Component {
                       <i className="fa fa-bed" aria-hidden="true"> </i>
                       <span>3 bedrooms</span>
                     </div>
+
+                    <div className="view-btn"> View Listing </div>
 
                   </div>
                 </div>

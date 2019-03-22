@@ -317,8 +317,8 @@ var Filter = function (_Component) {
               { className: 'listing-img' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
-                { className: 'Address' },
-                'Address'
+                { className: 'address' },
+                'Uetlibergstrasse 111'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
@@ -334,7 +334,7 @@ var Filter = function (_Component) {
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
-                  { className: 'col-md-3' },
+                  { className: 'col-md-9' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
                     { className: 'user-details' },
@@ -379,6 +379,11 @@ var Filter = function (_Component) {
                         null,
                         '3 bedrooms'
                       )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'view-btn' },
+                      ' View Listing '
                     )
                   )
                 )
