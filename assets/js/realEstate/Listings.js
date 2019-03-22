@@ -29,25 +29,29 @@ export default class Filter extends Component {
         </section>
 
         <section className="listings-results">
-          <div className="listing"></div>
-          <div className="listing-img">
-            <span className="Address">Address</span>
-            <div className="details">
-              <div className="user-img"> </div>
-              <div className="user-details">
-                <span className="user-name">Tom Jones</span>
-                <span className="post-date">08/12/2019</span>
-              </div>
-              <div className="listing-details">
-                <div className="floor-spacing"> 1000 ft&sup2;<i className="fa fa-bed" aria-hidden="true"> </i></div>
-                <i className="fa fa-bed" aria-hidden="true"> </i>
-                <span>3 bedrooms</span>
+          <div className="listing">
+            <div className="listing-img">
+              <span className="Address">Address</span>
+              <div className="details">
+                <div className="user-img"> </div>
+                <div className="user-details">
+                  <span className="user-name">Tom Jones</span>
+                  <span className="post-date">08/12/2019</span>
+                </div>
+                <div className="listing-details">
+                  <div className="floor-spacing">
+                    <i className="fa fa-square-o" aria-hidden="true"> </i>
+                  </div>
+                  <span>1000 ft&sup2;</span>
+                  <i className="fa fa-bed" aria-hidden="true"> </i>
+                  <span>3 bedrooms</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="bottom-info">
-            <span>$1000 /month</span>
-            <span>Uitikon, Zürich<i className="fa fa-map-marker" aria-hidden="true"> </i></span>
+            <div className="bottom-info">
+              <span>$1000 /month</span>
+              <span>Uitikon, Zürich<i className="fa fa-map-marker" aria-hidden="true"> </i></span>
+            </div>
           </div>
         </section>
 

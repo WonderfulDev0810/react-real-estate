@@ -309,79 +309,86 @@ var Filter = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
           { className: 'listings-results' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'listing' }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: 'listing-img' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'span',
-              { className: 'Address' },
-              'Address'
-            ),
+            { className: 'listing' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
-              { className: 'details' },
+              { className: 'listing-img' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'user-img' },
-                ' '
+                'span',
+                { className: 'Address' },
+                'Address'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'user-details' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'span',
-                  { className: 'user-name' },
-                  'Tom Jones'
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'span',
-                  { className: 'post-date' },
-                  '08/12/2019'
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'listing-details' },
+                { className: 'details' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
-                  { className: 'floor-spacing' },
-                  ' 1000 ft\xB2',
+                  { className: 'user-img' },
+                  ' '
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'user-details' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    { className: 'user-name' },
+                    'Tom Jones'
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    { className: 'post-date' },
+                    '08/12/2019'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'listing-details' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'floor-spacing' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'i',
+                      { className: 'fa fa-square-o', 'aria-hidden': 'true' },
+                      ' '
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    null,
+                    '1000 ft\xB2'
+                  ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'i',
                     { className: 'fa fa-bed', 'aria-hidden': 'true' },
                     ' '
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    null,
+                    '3 bedrooms'
                   )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'i',
-                  { className: 'fa fa-bed', 'aria-hidden': 'true' },
-                  ' '
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'span',
-                  null,
-                  '3 bedrooms'
                 )
               )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'bottom-info' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'span',
-              null,
-              '$1000 /month'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'span',
-              null,
-              'Uitikon, Z\xFCrich',
+              'div',
+              { className: 'bottom-info' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'i',
-                { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
-                ' '
+                'span',
+                null,
+                '$1000 /month'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                'Uitikon, Z\xFCrich',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'i',
+                  { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
+                  ' '
+                )
               )
             )
           )

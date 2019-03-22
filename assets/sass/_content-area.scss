@@ -1,3 +1,11 @@
+#content-area {
+  overflow: auto;
+  width: 100%;
+  background: black;
+  min-height: 100%;
+}
+
+
 #filter {
   background: $grey;
   width: 30%;
@@ -114,11 +122,27 @@ select {
       }
     }
 
-
   }
+
+
+
+
+  .listings-results {
+    .listing {
+      background: #fff;
+      width: 33%;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(224,224,224,1);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(224,224,224,1);
+      box-shadow: 0px 0px 15px 0px rgba(224,224,224,1);
+      border-radius: 5px;
+      margin-bottom: 80px;
+
+    }
+  }
+
+
+
 }
-
-
 
 
 
