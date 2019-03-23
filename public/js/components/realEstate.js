@@ -728,10 +728,10 @@ var Filter = function (_Component) {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
-          { className: 'pageination' },
+          { id: 'pageination' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'ul',
-            { className: 'pagination-nums' },
+            { className: 'pages' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'li',
               null,
@@ -739,7 +739,7 @@ var Filter = function (_Component) {
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'li',
-              null,
+              { className: 'active' },
               '1'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
