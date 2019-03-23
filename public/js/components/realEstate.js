@@ -782,7 +782,62 @@ var Filter = function (_Component) {
 
 /***/ }),
 
-/***/ 236:
+/***/ 233:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var listingsData = [{
+  adress: '101 Uetlibergstrasse',
+  city: 'Zürich',
+  rooms: 1,
+  price: 220000,
+  floorSpace: 2000,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://media.bizj.us/view/img/11038491/photo-0351*750xx2400-1350-0-225.jpg'
+}, {
+  adress: '101 Uetlibergstrasse',
+  city: 'Zürich',
+  rooms: 2,
+  price: 220000,
+  floorSpace: 2000,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://independent.media.clients.ellingtoncms.com/img/photos/2018/10/15/202-Creekside-69-PRINT_t958_t958.jpeg?fef15e12b784e9bbb22bf3f2924819218cda3d1a'
+}, {
+  adress: '101 Uetlibergstrasse',
+  city: 'Zürich',
+  rooms: 3,
+  price: 220000,
+  floorSpace: 2000,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjN6taIsJnhAhWD6aQKHXfKCPQQjRx6BAgBEAU&url=https%3A%2F%2Fpatch.com%2Fillinois%2Fmanhattan%2Fs%2Fga34v%2Ffree-treehouse-no-expense-spared-mansion-illinois-wow-houses&psig=AOvVaw0wN_PY4PD9uPbS6RZW8wKO&ust=1553468671529132'
+}, {
+  adress: '101 Uetlibergstrasse',
+  city: 'Zürich',
+  rooms: 4,
+  price: 220000,
+  floorSpace: 2000,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwisjeCQsJnhAhUuM-wKHZQsABQQjRx6BAgBEAU&url=http%3A%2F%2Fwww.grandviewriverhouse.com%2F1510407275%2Fpyt%2Fd0c89e2c4a4883c0%2F&psig=AOvVaw0wN_PY4PD9uPbS6RZW8wKO&ust=1553468671529132'
+}, {
+  adress: '101 Uetlibergstrasse',
+  city: 'Zürich',
+  rooms: 5,
+  price: 220000,
+  floorSpace: 2000,
+  extras: ['elevator', 'gym'],
+  homeType: 'Apartment',
+  image: 'https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiL7_easJnhAhXSCuwKHUVrBNcQjRx6BAgBEAU&url=https%3A%2F%2Fairfreshener.club%2Fquotes%2Fbasketball-wallpaper-floor.html&psig=AOvVaw2XutKe0FqxPBCPY9rz-F_d&ust=1553468750800091'
+}];
+
+/* harmony default export */ __webpack_exports__["a"] = (listingsData);
+
+/***/ }),
+
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -794,6 +849,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_js__ = __webpack_require__(231);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Filter_js__ = __webpack_require__(230);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Listings_js__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__ = __webpack_require__(233);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -801,6 +857,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -817,7 +874,8 @@ var Layout = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).call(this));
 
     _this.state = {
-      name: 'Mads'
+      name: 'Mads',
+      listingsData: __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__["a" /* default */]
     };
     return _this;
   }
@@ -825,6 +883,7 @@ var Layout = function (_Component) {
   _createClass(Layout, [{
     key: 'render',
     value: function render() {
+      console.log(this.state.listingsData);
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         null,
@@ -848,4 +907,4 @@ __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODU
 
 /***/ })
 
-},[236]);
+},[237]);
