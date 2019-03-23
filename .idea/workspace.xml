@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/sass/_content-area.scss" line="274" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/assets/sass/_content-area.scss" line="278" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aebf7981-a91b-4017-b37b-d09b371482f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/Listings.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/Listings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/sass/_content-area.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/_content-area.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
     </list>
@@ -34,11 +32,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="187" column="31" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+            <state relative-caret-position="388">
+              <caret line="50" column="46" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1051#2517#0" />
                 <element signature="e#2589#4055#0" />
                 <element signature="e#4054#5460#0" />
                 <element signature="e#5522#6928#0" />
@@ -50,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/_content-area.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
+            <state relative-caret-position="599">
+              <caret line="344" column="18" selection-start-line="344" selection-start-column="18" selection-end-line="344" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -142,6 +139,8 @@
       <find>sort</find>
       <find>select</find>
       <find>sortby</find>
+      <find>floor</find>
+      <find>bedrooms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552356277116</updated>
       <workItem from="1552356281277" duration="21626000" />
-      <workItem from="1553037537096" duration="20488000" />
+      <workItem from="1553037537096" duration="20988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42114000" />
+    <option name="totallyTimeSpent" value="42614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2703" y="35" width="1292" height="1345" extended-state="0" />
@@ -400,11 +399,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="187" column="31" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+        <state relative-caret-position="388">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1051#2517#0" />
             <element signature="e#2589#4055#0" />
             <element signature="e#4054#5460#0" />
             <element signature="e#5522#6928#0" />
@@ -414,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_content-area.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
+        <state relative-caret-position="599">
+          <caret line="344" column="18" selection-start-line="344" selection-start-column="18" selection-end-line="344" selection-end-column="18" />
         </state>
       </provider>
     </entry>
