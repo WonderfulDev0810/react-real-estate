@@ -82,9 +82,10 @@ select {
       background: transparent;
       font-size: 2rem;
       border: none;
-      border-bottom: 1px solid $lightgrey;
+      border-bottom: 1px solid $darkgrey;
       margin-bottom: 20px;
       color: $lightgrey;
+      font-weight: 100;
     }
   }
 
@@ -93,7 +94,7 @@ select {
     margin-bottom: 20px;
 
     .results {
-      color: $lightgrey;
+      color: $darkgrey;
       font-size: 0.8rem;
       display: inline-block;
     }
@@ -197,7 +198,7 @@ select {
           height: 40px;
           border-radius: 50%;
           border: 2px solid white;
-        display: inline-block;
+          display: inline-block;
           background: url(https://media.bizj.us/view/img/11038491/photo-0351.jpg) no-repeat center center;
           -webkit-background-size: cover;
           -moz-background-size: cover;
@@ -208,7 +209,7 @@ select {
           vertical-align: top;
           display: inline-block;
           //width: 70px;
-        //margin-left: 20px;
+          //margin-left: 20px;
         }
         .user-name {
           display: block;
@@ -251,13 +252,31 @@ select {
 
       }
 
-
-
-
-
-
-
     }
+
+
+
+    .bottom-info {
+      padding: 20px 15px;
+
+      .price {
+        font-size: 1.0rem;
+        color: $darkgrey;
+        margin-bottom: 10px;
+        display: block;
+
+      }
+
+      .location {
+        font-size: 1.1rem;
+        display: block;
+        color: $lightgrey;
+      }
+    }
+
+
+
+
   }
 }
 

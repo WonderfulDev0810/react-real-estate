@@ -394,18 +394,18 @@ var Filter = function (_Component) {
               { className: 'bottom-info' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
-                null,
+                { className: 'price' },
                 '$1000 /month'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
-                null,
-                'Uitikon, Z\xFCrich',
+                { className: 'location' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'i',
                   { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
                   ' '
-                )
+                ),
+                ' Uitikon, Z\xFCrich'
               )
             )
           )

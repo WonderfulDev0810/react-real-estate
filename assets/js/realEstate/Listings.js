@@ -60,8 +60,8 @@ export default class Filter extends Component {
 
             </div>
             <div className="bottom-info">
-              <span>$1000 /month</span>
-              <span>Uitikon, Zürich<i className="fa fa-map-marker" aria-hidden="true"> </i></span>
+              <span className="price">$1000 /month</span>
+              <span className="location"><i className="fa fa-map-marker" aria-hidden="true"> </i> Uitikon, Zürich</span>
             </div>
           </div>
         </section>
