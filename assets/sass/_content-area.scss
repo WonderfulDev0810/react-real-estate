@@ -1,7 +1,7 @@
 #content-area {
   overflow: auto;
   width: 100%;
-  background: black;
+  background: antiquewhite;
   min-height: 100%;
 }
 
@@ -131,7 +131,7 @@ select {
   .listings-results {
     .listing {
       background: #fff;
-      width: 33%;
+      //width: 33%;
       -webkit-box-shadow: 0px 0px 15px 0px rgba(224,224,224,1);
       -moz-box-shadow: 0px 0px 15px 0px rgba(224,224,224,1);
       box-shadow: 0px 0px 15px 0px rgba(224,224,224,1);
@@ -307,6 +307,7 @@ select {
   width:25%;
   display: inline-block;
   vertical-align: top;
+  padding: 0 15px;
 }
 
 .col-md-9 {

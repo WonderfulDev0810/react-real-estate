@@ -311,101 +311,417 @@ var Filter = function (_Component) {
           { className: 'listings-results' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: 'listing' },
+            { className: 'col-md-3' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
-              { className: 'listing-img' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'address' },
-                'Uetlibergstrasse 111'
-              ),
+              { className: 'listing' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'details' },
+                { className: 'listing-img' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'col-md-3' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'user-img' },
-                    ' '
-                  )
+                  'span',
+                  { className: 'address' },
+                  'Uetlibergstrasse 111'
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
-                  { className: 'col-md-9' },
+                  { className: 'details' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
-                    { className: 'user-details' },
+                    { className: 'col-md-3' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'span',
-                      { className: 'user-name' },
-                      'Tom Jones'
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'span',
-                      { className: 'post-date' },
-                      '08/12/2019'
+                      'div',
+                      { className: 'user-img' },
+                      ' '
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
-                    { className: 'listing-details' },
+                    { className: 'col-md-9' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'div',
-                      { className: 'floor-spacing' },
+                      { className: 'user-details' },
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'i',
-                        { className: 'fa fa-square-o', 'aria-hidden': 'true' },
-                        ' '
+                        'span',
+                        { className: 'user-name' },
+                        'Tom Jones'
                       ),
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'span',
-                        null,
-                        '1000 ft\xB2'
+                        { className: 'post-date' },
+                        '08/12/2019'
                       )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'div',
-                      { className: 'bedrooms' },
+                      { className: 'listing-details' },
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'i',
-                        { className: 'fa fa-bed', 'aria-hidden': 'true' },
-                        ' '
+                        'div',
+                        { className: 'floor-spacing' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-square-o', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '1000 ft\xB2'
+                        )
                       ),
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'span',
-                        null,
-                        '3 bedrooms'
+                        'div',
+                        { className: 'bedrooms' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-bed', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '3 bedrooms'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'view-btn' },
+                        ' View Listing '
                       )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'view-btn' },
-                      ' View Listing '
                     )
                   )
                 )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'bottom-info' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'price' },
-                '$1000 /month'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'location' },
+                'div',
+                { className: 'bottom-info' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'i',
-                  { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
-                  ' '
+                  'span',
+                  { className: 'price' },
+                  '$1000 /month'
                 ),
-                ' Uitikon, Z\xFCrich'
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'location' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'i',
+                    { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
+                    ' '
+                  ),
+                  ' Uitikon, Z\xFCrich'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'col-md-3' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'listing' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'listing-img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'address' },
+                  'Uetlibergstrasse 111'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'details' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'col-md-3' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'user-img' },
+                      ' '
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'col-md-9' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'user-details' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'user-name' },
+                        'Tom Jones'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'post-date' },
+                        '08/12/2019'
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'listing-details' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'floor-spacing' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-square-o', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '1000 ft\xB2'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'bedrooms' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-bed', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '3 bedrooms'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'view-btn' },
+                        ' View Listing '
+                      )
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'bottom-info' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'price' },
+                  '$1000 /month'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'location' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'i',
+                    { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
+                    ' '
+                  ),
+                  ' Uitikon, Z\xFCrich'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'col-md-3' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'listing' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'listing-img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'address' },
+                  'Uetlibergstrasse 111'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'details' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'col-md-3' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'user-img' },
+                      ' '
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'col-md-9' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'user-details' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'user-name' },
+                        'Tom Jones'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'post-date' },
+                        '08/12/2019'
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'listing-details' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'floor-spacing' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-square-o', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '1000 ft\xB2'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'bedrooms' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-bed', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '3 bedrooms'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'view-btn' },
+                        ' View Listing '
+                      )
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'bottom-info' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'price' },
+                  '$1000 /month'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'location' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'i',
+                    { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
+                    ' '
+                  ),
+                  ' Uitikon, Z\xFCrich'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'col-md-3' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'listing' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'listing-img' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'address' },
+                  'Uetlibergstrasse 111'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'div',
+                  { className: 'details' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'col-md-3' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'user-img' },
+                      ' '
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'col-md-9' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'user-details' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'user-name' },
+                        'Tom Jones'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'post-date' },
+                        '08/12/2019'
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'div',
+                      { className: 'listing-details' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'floor-spacing' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-square-o', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '1000 ft\xB2'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'bedrooms' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'i',
+                          { className: 'fa fa-bed', 'aria-hidden': 'true' },
+                          ' '
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          null,
+                          '3 bedrooms'
+                        )
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'view-btn' },
+                        ' View Listing '
+                      )
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'bottom-info' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'price' },
+                  '$1000 /month'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'location' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'i',
+                    { className: 'fa fa-map-marker', 'aria-hidden': 'true' },
+                    ' '
+                  ),
+                  ' Uitikon, Z\xFCrich'
+                )
               )
             )
           )
