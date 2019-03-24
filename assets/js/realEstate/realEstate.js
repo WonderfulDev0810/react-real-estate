@@ -15,7 +15,15 @@ class Layout extends Component {
   this.change = this.change.bind(this)
   }
   change(event){
-    console.log(event.target.name)
+    var name = event.target.name
+    var value = event.target.value
+
+    this.setState({
+      [name] : value
+    }, () => {
+      console.log(this.state)
+    })
+    console.log(event.target.value)
   }
   render () {
     console.log(this.state.listingsData)

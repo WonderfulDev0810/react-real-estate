@@ -14,8 +14,8 @@ export default class Filter extends Component {
       <div className="inside">
         <h4>Filter</h4>
         <select name="neighbourhood" className="filters neighbourhood" onChange={this.props.change}>
-          <option>Zürich</option>
-          <option>Zürich2</option>
+          <option value="Zürich">Zürich</option>
+          <option value="Zürich 2">Zürich2</option>
         </select>
         <select name="housetype" className="filters housetype">
           <option>Villa</option>
