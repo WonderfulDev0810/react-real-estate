@@ -12,13 +12,17 @@ class Layout extends Component {
       name: 'Mads',
       listingsData
     }
+  this.change = this.change.bind(this)
+  }
+  change(event){
+    console.log(event.target.name)
   }
   render () {
     console.log(this.state.listingsData)
     return (<div>
       <Header />
       <section id="content-area">
-        <Filter />
+        <Filter change={this.change} />
         <Listings listingsData={this.state.listingsData} />
       </section>
     </div>)

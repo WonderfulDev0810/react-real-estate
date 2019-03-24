@@ -48,11 +48,16 @@ var Filter = function (_Component) {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
-            { name: 'neighbourhood', className: 'filters neighbourhood' },
+            { name: 'neighbourhood', className: 'filters neighbourhood', onChange: this.props.change },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
               null,
               'Z\xFCrich'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              null,
+              'Z\xFCrich2'
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -580,10 +585,16 @@ var Layout = function (_Component) {
       name: 'Mads',
       listingsData: __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__["a" /* default */]
     };
+    _this.change = _this.change.bind(_this);
     return _this;
   }
 
   _createClass(Layout, [{
+    key: 'change',
+    value: function change(event) {
+      console.log(event.target.name);
+    }
+  }, {
     key: 'render',
     value: function render() {
       console.log(this.state.listingsData);
@@ -594,7 +605,7 @@ var Layout = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
           { id: 'content-area' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Filter_js__["a" /* default */], null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Filter_js__["a" /* default */], { change: this.change }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Listings_js__["a" /* default */], { listingsData: this.state.listingsData })
         )
       );
