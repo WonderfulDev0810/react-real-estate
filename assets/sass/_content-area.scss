@@ -146,11 +146,10 @@ select {
     }
     .listing-img {
       position: relative;
-
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover !important;
       min-height:200px;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
