@@ -62,8 +62,8 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Apartment',
-    image: 'https://images.pexels.com/photos/1030555/pexels-photo-1030555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+    image: 'https://images.pexels.com/photos/1488267/pexels-photo-1488267.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
   }
 ]
 
-export default listingsData;
+export default listingsData

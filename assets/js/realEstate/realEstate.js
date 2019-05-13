@@ -16,7 +16,7 @@ class Layout extends Component {
   }
   change(event){
     var name = event.target.name
-    var value = event.target.value
+    var value = (event.target.type === 'checkbox') ? event.target.checked : event.target.value
 
     this.setState({
       [name] : value

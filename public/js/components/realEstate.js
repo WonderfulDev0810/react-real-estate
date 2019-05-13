@@ -62,20 +62,45 @@ var Filter = function (_Component) {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
-            { name: 'housetype', className: 'filters housetype' },
+            { name: 'housetype', className: 'filters housetype', onChange: this.props.change },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
-              null,
+              { value: 'Villa' },
               'Villa'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: 'Apartment' },
+              'Apartment'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: 'Room' },
+              'Room'
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
-            { name: 'bedrooms', className: 'fitlers bedrooms' },
+            { name: 'bedrooms', className: 'fitlers bedrooms', onChange: this.props.change },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
-              null,
-              '6 BR'
+              { value: '1' },
+              '1 BR'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: '2' },
+              '2 BR'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: '3' },
+              '3 BR'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: '4' },
+              '4 BR'
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -86,8 +111,8 @@ var Filter = function (_Component) {
               { className: 'title' },
               'Price'
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'min-price' }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'max-price' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'min-price', onChange: this.props.change, value: '0' }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-price', className: 'max-price', onChange: this.props.change, value: '100000000' })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
@@ -97,8 +122,8 @@ var Filter = function (_Component) {
               { className: 'title' },
               'Floor Space'
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-floor-space', className: 'min-floor-space' }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'max-floor-space', className: 'max-floor-space' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'min-floor-space', className: 'min-floor-space', onChange: this.props.change, value: '0' }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'max-floor-space', className: 'max-floor-space', onChange: this.props.change, value: '5000' })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
@@ -116,7 +141,7 @@ var Filter = function (_Component) {
                 null,
                 ' Elevators'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'elavator', type: 'checkbox' })
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'elavator', type: 'checkbox', onChange: this.props.change })
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
@@ -126,7 +151,7 @@ var Filter = function (_Component) {
                 null,
                 ' Finished Basement'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'finished basement', type: 'checkbox' })
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'finished basement', type: 'checkbox', onChange: this.props.change })
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
@@ -136,7 +161,7 @@ var Filter = function (_Component) {
                 null,
                 ' Gym'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'gym', type: 'checkbox' })
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { name: 'extras', value: 'gym', type: 'checkbox', onChange: this.props.change })
             )
           )
         )
@@ -538,7 +563,7 @@ var listingsData = [{
   floorSpace: 2000,
   extras: ['elevator', 'gym'],
   homeType: 'Apartment',
-  image: 'https://images.pexels.com/photos/1030555/pexels-photo-1030555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+  image: 'https://images.pexels.com/photos/1488267/pexels-photo-1488267.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (listingsData);
@@ -597,7 +622,7 @@ var Layout = function (_Component) {
       var _this2 = this;
 
       var name = event.target.name;
-      var value = event.target.value;
+      var value = event.target.type === 'checkbox' ? event.target.checked : event.target.value;
 
       this.setState(_defineProperty({}, name, value), function () {
         console.log(_this2.state);
