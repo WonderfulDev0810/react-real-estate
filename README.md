@@ -1,3 +1,9 @@
+# Project Overview
+
+![alt text](assets/img/project-screenshot.png)
+**Project Description**
+A Realestate app in modern UI design with comprehensive filtering options
+
 # Starter-Kit-2018
 
 **Download or Pull This Repo**

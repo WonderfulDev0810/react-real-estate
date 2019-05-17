@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aebf7981-a91b-4017-b37b-d09b371482f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/Listings.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/Listings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/public/js/components/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +20,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/_listings.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -44,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="38">
+              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -84,6 +68,23 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/img/project-screenshot.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -156,6 +157,7 @@
         <option value="$PROJECT_DIR$/assets/js/realEstate/Listings.js" />
         <option value="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" />
         <option value="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -166,8 +168,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1337" />
-    <option name="y" value="33" />
+    <option name="x" value="1220" />
+    <option name="y" value="35" />
     <option name="width" value="1223" />
     <option name="height" value="1385" />
   </component>
@@ -197,28 +199,7 @@
               <item name="react-real-estate" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-real-estate" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-real-estate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-real-estate" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="realEstate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-real-estate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-real-estate" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="realEstate" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-real-estate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-real-estate" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,6 +219,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/js/realEstate" />
     </key>
@@ -273,24 +257,24 @@
       <workItem from="1555459304788" duration="610000" />
       <workItem from="1556567588702" duration="773000" />
       <workItem from="1557684309804" duration="4441000" />
-      <workItem from="1558124645554" duration="3015000" />
+      <workItem from="1558124645554" duration="3600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64951000" />
+    <option name="totallyTimeSpent" value="65536000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1337" y="33" width="1223" height="1385" extended-state="0" />
+    <frame x="1337" y="32" width="1223" height="1385" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" sideWeight="0.17734554" side_tool="true" weight="0.19951534" />
       <window_info id="npm" order="2" sideWeight="0.51541096" side_tool="true" weight="0.13231756" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48458904" weight="0.13231756" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.48458904" visible="true" weight="0.23285352" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3294849" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.095901005" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.095901005" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32817337" />
@@ -344,14 +328,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -422,6 +398,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="723">
@@ -432,10 +415,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+    <entry file="file://$PROJECT_DIR$/assets/img/project-screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
