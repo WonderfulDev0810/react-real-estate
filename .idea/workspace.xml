@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js" line="24" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js" line="26" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aebf7981-a91b-4017-b37b-d09b371482f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/Listings.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/Listings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/public/js/components/" />
@@ -21,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1900">
-              <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/_listings.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,16 +44,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
-              <caret line="64" column="121" selection-start-line="64" selection-start-column="121" selection-end-line="64" selection-end-column="121" />
+            <state relative-caret-position="799">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Filter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="950">
@@ -77,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="723">
+              <caret line="40" column="183" selection-start-line="40" selection-start-column="183" selection-end-line="40" selection-end-column="183" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -150,12 +150,12 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/assets/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/assets/js/realEstate/Listings.js" />
         <option value="$PROJECT_DIR$/assets/sass/_content-area.scss" />
         <option value="$PROJECT_DIR$/assets/js/realEstate/TESTER.js" />
-        <option value="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" />
-        <option value="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" />
         <option value="$PROJECT_DIR$/assets/js/realEstate/Filter.js" />
+        <option value="$PROJECT_DIR$/assets/js/realEstate/Listings.js" />
+        <option value="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" />
+        <option value="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" />
       </list>
     </option>
   </component>
@@ -166,10 +166,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1121" />
-    <option name="y" value="23" />
-    <option name="width" value="1289" />
-    <option name="height" value="1384" />
+    <option name="x" value="1337" />
+    <option name="y" value="33" />
+    <option name="width" value="1223" />
+    <option name="height" value="1385" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -273,27 +273,27 @@
       <workItem from="1555459304788" duration="610000" />
       <workItem from="1556567588702" duration="773000" />
       <workItem from="1557684309804" duration="4441000" />
-      <workItem from="1558124645554" duration="1846000" />
+      <workItem from="1558124645554" duration="3015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63782000" />
+    <option name="totallyTimeSpent" value="64951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1121" y="23" width="1289" height="1384" extended-state="0" />
+    <frame x="1337" y="33" width="1223" height="1385" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" sideWeight="0.17734554" side_tool="true" weight="0.19951534" />
-      <window_info id="npm" order="2" sideWeight="0.51369864" side_tool="true" visible="true" weight="0.15156375" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.48630136" visible="true" weight="0.15156375" />
+      <window_info id="npm" order="2" sideWeight="0.51541096" side_tool="true" weight="0.13231756" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48458904" weight="0.13231756" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3294849" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.095975235" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.095901005" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32881084" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32817337" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -371,16 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_listings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -415,27 +405,37 @@
     <entry file="file://$PROJECT_DIR$/assets/js/regularJS.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Filter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="64" column="121" selection-start-line="64" selection-start-column="121" selection-end-line="64" selection-end-column="121" />
+        <state relative-caret-position="950">
+          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="723">
+          <caret line="40" column="183" selection-start-line="40" selection-start-column="183" selection-end-line="40" selection-end-column="183" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Filter.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state relative-caret-position="799">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
         </state>
       </provider>
     </entry>

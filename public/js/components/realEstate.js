@@ -301,6 +301,10 @@ var Filter = function (_Component) {
       var listingsData = this.props.listingsData;
 
 
+      if (listingsData == undefined || listingsData.length == 0) {
+        return "Sorry your filter did not match any listing";
+      }
+
       return listingsData.map(function (listing, index) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
@@ -561,7 +565,7 @@ var listingsData = [{
   city: 'Widikon',
   rooms: 4,
   price: 30000,
-  floorSpace: 2000,
+  floorSpace: 1000,
   extras: ['elevator', 'gym'],
   homeType: 'Apartment',
   image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
@@ -570,7 +574,7 @@ var listingsData = [{
   city: 'Basel',
   rooms: 5,
   price: 220000,
-  floorSpace: 2000,
+  floorSpace: 1200,
   extras: ['elevator', 'gym'],
   homeType: 'Apartment',
   image: 'https://images.pexels.com/photos/1488267/pexels-photo-1488267.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
@@ -628,9 +632,11 @@ var Layout = function (_Component) {
       elevator: false,
       finished_basement: false,
       gym: false,
-      swimming_pool: false
+      swimming_pool: false,
+      filteredData: __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__["a" /* default */]
     };
     _this.change = _this.change.bind(_this);
+    _this.filteredData = _this.filteredData.bind(_this);
     return _this;
   }
 
@@ -644,8 +650,20 @@ var Layout = function (_Component) {
 
       this.setState(_defineProperty({}, name, value), function () {
         console.log(_this2.state);
+        _this2.filteredData();
       });
-      console.log(event.target.value);
+    }
+  }, {
+    key: 'filteredData',
+    value: function filteredData() {
+      var _this3 = this;
+
+      var newData = this.state.listingsData.filter(function (item) {
+        return item.price >= _this3.state.min_price && item.price <= _this3.state.max_price && item.floorSpace >= _this3.state.min_floor_space && item.floorSpace <= _this3.state.max_floor_space;
+      });
+      this.setState({
+        filteredData: newData
+      });
     }
   }, {
     key: 'render',
@@ -659,7 +677,7 @@ var Layout = function (_Component) {
           'section',
           { id: 'content-area' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Filter_js__["a" /* default */], { change: this.change, globalState: this.state }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Listings_js__["a" /* default */], { listingsData: this.state.listingsData })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Listings_js__["a" /* default */], { listingsData: this.state.filteredData })
         )
       );
     }

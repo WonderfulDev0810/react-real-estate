@@ -43,7 +43,7 @@ var listingsData = [
     city: 'Widikon',
     rooms: 4,
     price: 30000,
-    floorSpace: 2000,
+    floorSpace: 1000,
     extras: [
       'elevator',
       'gym'
@@ -56,7 +56,7 @@ var listingsData = [
     city: 'Basel',
     rooms: 5,
     price: 220000,
-    floorSpace: 2000,
+    floorSpace: 1200,
     extras: [
       'elevator',
       'gym'
