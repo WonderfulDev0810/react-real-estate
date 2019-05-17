@@ -22,7 +22,7 @@ var listingsData = [
       'elevator',
       'gym'
     ],
-    homeType: 'Apartment',
+    homeType: 'Villa',
     image: 'https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
   },
   {
@@ -48,7 +48,7 @@ var listingsData = [
       'elevator',
       'gym'
     ],
-    homeType: 'Apartment',
+    homeType: 'Room',
     image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
   },
   {
@@ -61,7 +61,7 @@ var listingsData = [
       'elevator',
       'gym'
     ],
-    homeType: 'Apartment',
+    homeType: 'Villa',
     image: 'https://images.pexels.com/photos/1488267/pexels-photo-1488267.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
   }
 ]

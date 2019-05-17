@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js" line="26" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js" line="29" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aebf7981-a91b-4017-b37b-d09b371482f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/public/js/components/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="513">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -40,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="-702">
               <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -49,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+            <state relative-caret-position="285">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -61,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="40" column="183" selection-start-line="40" selection-start-column="183" selection-end-line="40" selection-end-column="183" />
+            <state relative-caret-position="176">
+              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -70,12 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="95">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -88,19 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/_content-area.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3002">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -136,7 +138,16 @@
       <find>user-img</find>
       <find>listing-img</find>
       <find>min-floor-space</find>
+      <find>homeType</find>
+      <find>hometype</find>
+      <find>housetype</find>
+      <find>neighbourhood</find>
     </findStrings>
+    <replaceStrings>
+      <replace>houseType</replace>
+      <replace>homeType</replace>
+      <replace>city</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,11 +164,11 @@
         <option value="$PROJECT_DIR$/assets/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/sass/_content-area.scss" />
         <option value="$PROJECT_DIR$/assets/js/realEstate/TESTER.js" />
-        <option value="$PROJECT_DIR$/assets/js/realEstate/Filter.js" />
         <option value="$PROJECT_DIR$/assets/js/realEstate/Listings.js" />
-        <option value="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" />
-        <option value="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js" />
+        <option value="$PROJECT_DIR$/assets/js/realEstate/realEstate.js" />
+        <option value="$PROJECT_DIR$/assets/js/realEstate/Filter.js" />
       </list>
     </option>
   </component>
@@ -168,8 +179,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1220" />
-    <option name="y" value="35" />
+    <option name="x" value="1225" />
+    <option name="y" value="36" />
     <option name="width" value="1223" />
     <option name="height" value="1385" />
   </component>
@@ -201,6 +212,19 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-real-estate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-real-estate" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-real-estate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-real-estate" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="realEstate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +240,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/standard" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -257,30 +281,30 @@
       <workItem from="1555459304788" duration="610000" />
       <workItem from="1556567588702" duration="773000" />
       <workItem from="1557684309804" duration="4441000" />
-      <workItem from="1558124645554" duration="3600000" />
+      <workItem from="1558124645554" duration="6706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65536000" />
+    <option name="totallyTimeSpent" value="68642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1337" y="32" width="1223" height="1385" extended-state="0" />
+    <frame x="1225" y="36" width="1223" height="1385" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" sideWeight="0.17734554" side_tool="true" weight="0.19951534" />
       <window_info id="npm" order="2" sideWeight="0.51541096" side_tool="true" weight="0.13231756" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.48458904" visible="true" weight="0.23285352" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48458904" visible="true" weight="0.23285352" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3294849" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.095901005" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.31245166" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32817337" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32946634" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -340,13 +364,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/TESTER.js" />
-    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_listings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -356,13 +373,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_content-area.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -374,23 +384,43 @@
     <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/regularJS.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Filter.js">
+    <entry file="file://$PROJECT_DIR$/assets/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/project-screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Listings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="-702">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -400,31 +430,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/data/listingsData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="513">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/realEstate/realEstate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="40" column="183" selection-start-line="40" selection-start-column="183" selection-end-line="40" selection-end-column="183" />
+        <state relative-caret-position="176">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/project-screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/assets/js/realEstate/Filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>

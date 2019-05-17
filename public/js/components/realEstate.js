@@ -47,8 +47,18 @@ var Filter = function (_Component) {
             'Filter'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'label',
+            { htmlFor: 'city' },
+            'City'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
-            { name: 'neighbourhood', className: 'filters neighbourhood', onChange: this.props.change },
+            { name: 'city', className: 'filters city', onChange: this.props.change },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: 'All' },
+              'All'
+            ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
               { value: 'Z\xFCrich' },
@@ -56,13 +66,33 @@ var Filter = function (_Component) {
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
-              { value: 'Z\xFCrich 2' },
-              'Z\xFCrich2'
+              { value: 'Zug' },
+              'Zug'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: 'Basel' },
+              'Basel'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: 'Widikon' },
+              'Widikon'
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'label',
+            { htmlFor: 'homeType' },
+            'Home Type '
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
-            { name: 'housetype', className: 'filters housetype', onChange: this.props.change },
+            { name: 'homeType', className: 'filters homeType', onChange: this.props.change },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
+              { value: 'All' },
+              'All home types'
+            ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
               { value: 'Villa' },
@@ -80,27 +110,37 @@ var Filter = function (_Component) {
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'label',
+            { htmlFor: 'bedrooms' },
+            'Bedrooms '
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
             { name: 'bedrooms', className: 'fitlers bedrooms', onChange: this.props.change },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
+              { value: '0' },
+              '0+'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'option',
               { value: '1' },
-              '1 BR'
+              '1+ BR'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
               { value: '2' },
-              '2 BR'
+              '2+ BR'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
               { value: '3' },
-              '3 BR'
+              '3+ BR'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'option',
               { value: '4' },
-              '4 BR'
+              '4+ BR'
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -549,7 +589,7 @@ var listingsData = [{
   price: 320000,
   floorSpace: 2000,
   extras: ['elevator', 'gym'],
-  homeType: 'Apartment',
+  homeType: 'Villa',
   image: 'https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 }, {
   address: 'Widmerstrasser 23',
@@ -567,7 +607,7 @@ var listingsData = [{
   price: 30000,
   floorSpace: 1000,
   extras: ['elevator', 'gym'],
-  homeType: 'Apartment',
+  homeType: 'Room',
   image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 }, {
   address: 'Ringerstrasse 2',
@@ -576,7 +616,7 @@ var listingsData = [{
   price: 220000,
   floorSpace: 1200,
   extras: ['elevator', 'gym'],
-  homeType: 'Apartment',
+  homeType: 'Villa',
   image: 'https://images.pexels.com/photos/1488267/pexels-photo-1488267.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 }];
 
@@ -625,6 +665,9 @@ var Layout = function (_Component) {
     _this.state = {
       name: 'Mads',
       listingsData: __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__["a" /* default */],
+      city: 'All',
+      homeType: 'All',
+      bedrooms: '0',
       min_price: 0,
       max_price: 10000000,
       min_floor_space: 0,
@@ -659,8 +702,20 @@ var Layout = function (_Component) {
       var _this3 = this;
 
       var newData = this.state.listingsData.filter(function (item) {
-        return item.price >= _this3.state.min_price && item.price <= _this3.state.max_price && item.floorSpace >= _this3.state.min_floor_space && item.floorSpace <= _this3.state.max_floor_space;
+        return item.price >= _this3.state.min_price && item.price <= _this3.state.max_price && item.floorSpace >= _this3.state.min_floor_space && item.floorSpace <= _this3.state.max_floor_space && item.rooms >= _this3.state.bedrooms;
       });
+      if (this.state.city != "All") {
+        newData = newData.filter(function (item) {
+          return item.city == _this3.state.city;
+        });
+      }
+
+      if (this.state.homeType != "All") {
+        newData = newData.filter(function (item) {
+          return item.homeType == _this3.state.homeType;
+        });
+      }
+
       this.setState({
         filteredData: newData
       });

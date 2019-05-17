@@ -13,20 +13,28 @@ export default class Filter extends Component {
     return (<section id="filter">
       <div className="inside">
         <h4>Filter</h4>
-        <select name="neighbourhood" className="filters neighbourhood" onChange={this.props.change}>
+        <label htmlFor="city">City</label>
+        <select name="city" className="filters city" onChange={this.props.change}>
+          <option value="All">All</option>
           <option value="Zürich">Zürich</option>
-          <option value="Zürich 2">Zürich2</option>
+          <option value="Zug">Zug</option>
+          <option value="Basel">Basel</option>
+          <option value="Widikon">Widikon</option>
         </select>
-        <select name="housetype" className="filters housetype" onChange={this.props.change}>
+        <label htmlFor="homeType">Home Type </label>
+        <select name="homeType" className="filters homeType" onChange={this.props.change}>
+          <option value="All">All home types</option>
           <option value="Villa">Villa</option>
           <option value="Apartment">Apartment</option>
           <option value="Room">Room</option>
         </select>
+        <label htmlFor="bedrooms">Bedrooms </label>
         <select name="bedrooms" className="fitlers bedrooms" onChange={this.props.change}>
-          <option value="1">1 BR</option>
-          <option value="2">2 BR</option>
-          <option value="3">3 BR</option>
-          <option value="4">4 BR</option>
+          <option value="0">0+</option>
+          <option value="1">1+ BR</option>
+          <option value="2">2+ BR</option>
+          <option value="3">3+ BR</option>
+          <option value="4">4+ BR</option>
         </select>
         <div className="filters price">
           <span className="title">Price</span>
