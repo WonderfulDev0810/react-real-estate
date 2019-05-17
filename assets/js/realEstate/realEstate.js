@@ -10,7 +10,15 @@ class Layout extends Component {
     super()
     this.state = {
       name: 'Mads',
-      listingsData
+      listingsData,
+      min_price: 0,
+      max_price: 10000000,
+      min_floor_space: 0,
+      max_floor_space: 50000,
+      elevator: false,
+      finished_basement: false,
+      gym: false,
+      swimming_pool: false
     }
   this.change = this.change.bind(this)
   }
@@ -30,7 +38,7 @@ class Layout extends Component {
     return (<div>
       <Header />
       <section id="content-area">
-        <Filter change={this.change} />
+        <Filter change={this.change} globalState={this.state} />
         <Listings listingsData={this.state.listingsData} />
       </section>
     </div>)
