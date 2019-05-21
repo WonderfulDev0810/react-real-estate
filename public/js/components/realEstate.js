@@ -29,10 +29,65 @@ var Filter = function (_Component) {
     _this.state = {
       name: 'Mads'
     };
+    _this.cities = _this.cities.bind(_this);
     return _this;
   }
 
   _createClass(Filter, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.props.populateAction();
+    }
+  }, {
+    key: 'cities',
+    value: function cities() {
+      if (this.props.globalState.populateFormsData.cities != undefined) {
+        var cities = this.props.globalState.populateFormsData.cities;
+
+        console.log(cities);
+        return cities.map(function (item) {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'option',
+            { key: item, value: item },
+            item
+          );
+        });
+      }
+    }
+  }, {
+    key: 'homeTypes',
+    value: function homeTypes() {
+      if (this.props.globalState.populateFormsData.homeTypes != undefined) {
+        var homeTypes = this.props.globalState.populateFormsData.homeTypes;
+
+        console.log(homeTypes);
+        return homeTypes.map(function (item) {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'option',
+            { key: item, value: item },
+            item
+          );
+        });
+      }
+    }
+  }, {
+    key: 'bedrooms',
+    value: function bedrooms() {
+      if (this.props.globalState.populateFormsData.bedrooms != undefined) {
+        var bedrooms = this.props.globalState.populateFormsData.bedrooms;
+
+        console.log(bedrooms);
+        return bedrooms.map(function (item) {
+          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'option',
+            { key: item, value: item },
+            item,
+            ' + BR'
+          );
+        });
+      }
+    }
+  }, {
     key: 'render',
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -59,26 +114,7 @@ var Filter = function (_Component) {
               { value: 'All' },
               'All'
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Z\xFCrich' },
-              'Z\xFCrich'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Zug' },
-              'Zug'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Basel' },
-              'Basel'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Widikon' },
-              'Widikon'
-            )
+            this.cities()
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'label',
@@ -88,26 +124,7 @@ var Filter = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
             { name: 'homeType', className: 'filters homeType', onChange: this.props.change },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'All' },
-              'All home types'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Villa' },
-              'Villa'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Apartment' },
-              'Apartment'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: 'Room' },
-              'Room'
-            )
+            this.homeTypes()
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'label',
@@ -117,31 +134,7 @@ var Filter = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'select',
             { name: 'bedrooms', className: 'fitlers bedrooms', onChange: this.props.change },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: '0' },
-              '0+'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: '1' },
-              '1+ BR'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: '2' },
-              '2+ BR'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: '3' },
-              '3+ BR'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'option',
-              { value: '4' },
-              '4+ BR'
-            )
+            this.bedrooms()
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
@@ -639,6 +632,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__ = __webpack_require__(233);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -676,10 +671,12 @@ var Layout = function (_Component) {
       finished_basement: false,
       gym: false,
       swimming_pool: false,
-      filteredData: __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__["a" /* default */]
+      filteredData: __WEBPACK_IMPORTED_MODULE_5__data_listingsData_js__["a" /* default */],
+      populateFormsData: ''
     };
     _this.change = _this.change.bind(_this);
     _this.filteredData = _this.filteredData.bind(_this);
+    _this.populateForms = _this.populateForms.bind(_this);
     return _this;
   }
 
@@ -721,6 +718,42 @@ var Layout = function (_Component) {
       });
     }
   }, {
+    key: 'populateForms',
+    value: function populateForms() {
+      var _this4 = this;
+
+      // city
+      var cities = this.state.listingsData.map(function (item) {
+        return item.city;
+      });
+      cities = new Set(cities);
+      cities = [].concat(_toConsumableArray(cities));
+
+      // homeType
+      var homeTypes = this.state.listingsData.map(function (item) {
+        return item.homeType;
+      });
+      homeTypes = new Set(homeTypes);
+      homeTypes = [].concat(_toConsumableArray(homeTypes));
+
+      // bedrooms
+      var bedrooms = this.state.listingsData.map(function (item) {
+        return item.rooms;
+      });
+      bedrooms = new Set(bedrooms);
+      bedrooms = [].concat(_toConsumableArray(bedrooms));
+
+      this.setState({
+        populateFormsData: {
+          homeTypes: homeTypes,
+          bedrooms: bedrooms,
+          cities: cities
+        }
+      }, function () {
+        console.log(_this4.state);
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
       console.log(this.state.listingsData);
@@ -731,7 +764,8 @@ var Layout = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
           { id: 'content-area' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Filter_js__["a" /* default */], { change: this.change, globalState: this.state }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Filter_js__["a" /* default */], { change: this.change, globalState: this.state,
+            populateAction: this.populateForms }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Listings_js__["a" /* default */], { listingsData: this.state.filteredData })
         )
       );
